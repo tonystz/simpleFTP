@@ -16,7 +16,7 @@ import (
 
 const (
 	BUFF_SIZE     = 512
-	READ_DEADLINE = 10
+	READ_DEADLINE = 1
 )
 
 func check(err error) {
