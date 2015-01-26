@@ -1,4 +1,4 @@
-SimpleFTP client wrote by Golang
+SimpleFTP client wrote by Golang.
 Usage:
 ```
 ftp.New("10.64.70.73")
