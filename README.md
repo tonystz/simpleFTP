@@ -1,5 +1,13 @@
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/tonystz/simpleFTP.git
-git push -u origin master
+SimpleFTP client wrote by Golang
+Usage:
+```
+ftp.New("10.64.70.73")
+ftp.GetFile("/pub/atop-1.27-3.tar.gz")
+ftp.Close()
+```
+or
+```
+ftp.New("10.64.70.73","username","passwd")
+ftp.GetFile("/pub/atop-1.27-3.tar.gz")
+ftp.Close()
+```
